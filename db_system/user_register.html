@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body class="container">
+
+    <form action="user_register_db.php" class=" shadow" method="post" enctype="multipart/form-data">
+        <h1>Register</h1>
+        <br>
+
+        <input type="text" placeholder="Username" name="username" required>
+
+        <input type="text" placeholder="Surname" name="surname" required>
+
+        <input type="password" placeholder="Password" name="password" required>
+
+        <input type="password" placeholder="Confirm Password" name="password2" class="float-end" required>
+
+        <input type="tel" placeholder="Phone" name="phone" required>
+
+        <label for="gender"><h5>Gender</h5></label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male" class="me-3">Male</label>
+        
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female" class="me-3">Female</label>
+        
+        <input type="radio" id="other" name="gender" value="other" required>
+        <label for="other" class="me-3">Other</label>
+        
+        <br>
+        <label for="profile" class="label"><h5>Profile</h5></label>
+        <input type="file" class="form-control" name="profile">
+
+        <input type="submit" class="btn btn-success mt-2" name="submit" value="Submit">
+        <br>
+        <a href="login.php" class="text-center">Have an account</a>
+    </form>
+</body>
+</html>

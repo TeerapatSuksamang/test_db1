@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+body{
+    background-color: rgb(225, 224, 224);
+}
+
+form{
+    background: #fff;
+    margin: 3rem auto;
+    max-width: 27rem;
+    min-width: 25rem;
+    padding: 1.3rem;
+    border-radius: 5px;
+}
+
+h1, a{
+    text-align: center;
+    text-decoration: none;
+}
+
+input:not(:last-child){
+    outline: none;
+    margin-bottom: 1.6rem;
+}
+
+input:not([type="file"]){
+    border-style: none none solid none;
+}
+
+input:not([type="radio"],[type="password"]){
+    width: 100%;
+}
+
+input[type="password"]{
+    width: 49%;
+}
+

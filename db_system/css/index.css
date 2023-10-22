@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(225, 224, 224);
+    /* padding-top: 5rem; */
+}
+
+.pro-brand{
+    width: 3.3rem;
+    height: 3.3rem;
+    border: 2px solid pink;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 1rem 0 0 ;
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+    /* position: absolute; */
+}
+
+.card{
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+    padding: 5rem 1rem 2rem 1rem;
+    width: 23rem;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    /* text-align: center; */
+    position: relative;
+    /* box-shadow: ; */
+    transition: all .3s;
+}
+
+/* .card:hover{
+    transform: scale(1.01);
+} */
+
+.pro-card{
+    position: absolute;
+    width: 6.5rem;
+    height: 6.5rem;
+    /* border: 2px solid black;
+    padding: 5px; */
+    box-shadow: 0 0 0 10px rgb(250, 241, 250),0 0 0 11px black;
+    border-radius: 50%;
+    overflow: hidden;
+    /* margin: 0 auto; */
+    left: 50%;
+    top: 0;
+    transform: translate(-50%,-50%);
+}
+
+h3, p{
+    display: inline-block;
+}
+
+p{
+    font-size: 1.3rem;
+    /* margin-bottom: 10rem; */
+    /* display: inline; */
+}
+
+.but *{
+    width: 49%;
+}

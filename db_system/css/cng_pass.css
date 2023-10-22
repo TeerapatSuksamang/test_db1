@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+body{
+    background-color: rgb(225, 224, 224);
+}
+
+form{
+    background: #fff;
+    margin: 3rem auto;
+    max-width: 27rem;
+    min-width: 25rem;
+    padding: 1.3rem;
+    border-radius: 5px;
+}
+
+
+/* input:nth-child(4){
+    margin-bottom: 3rem;
+} */
+
+input{
+    outline: none;
+    margin-bottom: 1.6rem;
+    padding: .65rem;
+    /* border-style: none none solid none; */
+    border-radius: 6px;
+    border: 1px solid;
+    width: 100%;
+}
